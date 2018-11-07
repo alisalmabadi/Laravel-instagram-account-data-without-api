@@ -15,9 +15,6 @@ no api call is used in this project!  just meta tags in instagram website used t
 ![Get Instagram Account Data without api](http://uclearn.ir/instagram-data.gif)
 
 
-<p align="center"><img src="http://uclearn.ir/instagram-data.gif
-"></p>
-
 
 ## Getting Started
 
