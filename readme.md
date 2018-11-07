@@ -6,14 +6,14 @@
 
 ## Get Instagram Account Data without api
 
-In this repo you can see a simple laravel application in which can get instagram accounts data by just a trick!
-no api call is used in this project!  just meta tags in instagram website used to get data!
+In this repository you can see a simple laravel application for getting instagram accounts data by just a trick!<br>
+no api call is used in this simple project! just meta tags in instagram website used to get data!
 
 # demo
 <div align="center">
 <img class="centered" src="https://raw.githubusercontent.com/salis77/Laravel-instagram-account-data-without-api/master/insta.gif">
 </div>
-![Get Instagram Account Data without api](insta.gif)
+
 
 
 ## Getting Started
