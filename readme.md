@@ -1,8 +1,7 @@
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://github.com/salis77/Laravel-instagram-account-data-without-api"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://github.com/salis77/Laravel-instagram-account-data-without-api"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
 ## Get Instagram Account Data without api
@@ -12,7 +11,7 @@ no api call is used in this project!  just meta tags in instagram website used t
 
 # demo
 
-![Get Instagram Account Data without api](http://uclearn.ir/insta.gif)
+![Get Instagram Account Data without api](insta.gif)
 
 
 
