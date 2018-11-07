@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta id="token" name="token" content="{{csrf_token()}}">
-        <title>Laravel</title>
+        <title>Get Instagram Account Data without api</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -102,15 +102,9 @@
                     Swal('Oops...','type somthing! dont let it blank!','error');
                 }else{
                     $('.load').show();
-/*                          $("#load").addTemporaryClass('load',request_time);
-*/                $.post('{{route('senddata')}}',{_token: $('#token').attr('content') , username: username},function(data){
+				$.post('{{route('senddata')}}',{_token: $('#token').attr('content') , username: username},function(data){
                     $('.load').hide();
-
                     Swal({ title:'followers: '+data[0]  +'<br>'+ 'followings: '+data[1]+'<br>'+ 'posts: '+data[2],text:'username: '+username });
-
-                  
-
-            
                 });
             }
             });
