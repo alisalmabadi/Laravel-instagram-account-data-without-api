@@ -10,9 +10,7 @@ In this repo you can see a simple laravel application in which can get instagram
 no api call is used in this project!  just meta tags in instagram website used to get data!
 
 # demo
-<div class="centered">
 ![Get Instagram Account Data without api](insta.gif)
-</div>
 
 
 ## Getting Started
