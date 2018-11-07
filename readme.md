@@ -12,7 +12,7 @@ no api call is used in this project!  just meta tags in instagram website used t
 
 # demo
 
-![Get Instagram Account Data without api](http://uclearn.ir/instagram-data.gif)
+![Get Instagram Account Data without api](http://uclearn.ir/insta.gif)
 
 
 
