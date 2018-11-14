@@ -35,6 +35,12 @@ function getDetails($pageUrl) {
             $posts = substr($meta, $seccondCommaPos , $postsPos - $seccondCommaPos);
             $output[2] = $posts;
             
+              //image finder
+                $imgPos = strpos($result, "og:image");
+                $image = substr($result , $imgPos+19 , 200);
+                $endimgPos = strpos($image, "/>");
+                $finalImagePos = substr($result, $imgPos+19 , $endimgPos-2);
+                $output[3] = $finalImagePos;
 
             return $output;
         }

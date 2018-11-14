@@ -104,7 +104,7 @@
                     $('.load').show();
 				$.post('{{route('senddata')}}',{_token: $('#token').attr('content') , username: username},function(data){
                     $('.load').hide();
-                    Swal({ title:'followers: '+data[0]  +'<br>'+ 'followings: '+data[1]+'<br>'+ 'posts: '+data[2],text:'username: '+username });
+                    Swal({ title:'followers: '+data[0]  +'<br>'+ 'followings: '+data[1]+'<br>'+ 'posts: '+data[2] + '<br>'+'<img src='+data[3]+' >',text:'username: '+username  });
                 });
             }
             });
