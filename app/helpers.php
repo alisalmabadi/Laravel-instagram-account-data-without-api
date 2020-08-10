@@ -1,4 +1,8 @@
 <?php
+
+
+if (!function_exists('getDetails')) {
+
 function getDetails($pageUrl) {
         $url = $pageUrl;
         $ch = curl_init();
@@ -49,3 +53,4 @@ function getDetails($pageUrl) {
             return null;
         }
     }
+}
